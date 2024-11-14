@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+< lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biodata</title>
+</head>
+<>
+    <h1>Biodata Form</h1>
+    <p>Please fill in your details below:</p>
+
+    <div class="form-container">
+        
+        <form action="#" method="POST">
+            <h2><ul><li>Personal Information</li></ul></h2>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" name="contact" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <h2><ul><li>Educational Information</li></ul></h2>
+            <label for="education">Highest Education Level:</label>
+            <select id="education" name="education" required>
+                <option value="highschool">High School</option>
+                <option value="undergraduate">Undergraduate</option>
+                <option value="postgraduate">Postgraduate</option>
+                <option value="phd">Ph.D.</option>
+            </select>
+
+            <label for="institution">Institution Name:</label>
+            <input type="text" id="institution" name="institution" required>
+
+            <h2><ul><li>Work Experience</li></ul></h2>
+            <label for="jobtitle">Current Job Title:</label>
+            <input type="text" id="jobtitle" name="jobtitle" required>
+
+            <label for="company">Company Name:</label>
+            <input type="text" id="company" name="company" required>
+
+            <label for="experience">Years of Experience:</label>
+            <input type="number" id="experience" name="experience" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
